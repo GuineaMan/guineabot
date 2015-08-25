@@ -76,11 +76,7 @@ def nothing(args):
 
 
 def get_command(name):
-    # Explicity over implicity?
-    # Fuck that
-
-    # We just lower the string.
-    # and check later its upper cased
+  
     if name.lower() in _command_dict:
         return _command_dict[name.lower()]
     else:
@@ -97,8 +93,7 @@ def halp(args):
 
 
 # TODO: Use for something
-def hello(user):  # This function responds to a user that inputs "Hello cybits"
-    # random.randint(0, 5)
+def hello(user): 
     str = ("are you even cyb, " + user + "?\n")
     return str
 
@@ -153,9 +148,6 @@ def eight(args):
     directory = os.path.dirname(__file__)
     eight = directory + os.path.join("/texts/other/eightball.txt")
     return random.choice(list(open(eight)))
-
-
-
 
 @command("booty")
 def booty(args):
