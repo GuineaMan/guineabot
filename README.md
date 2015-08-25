@@ -1,6 +1,3 @@
-~currently broken~
-
-
 guineabot
 =====
 
