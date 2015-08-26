@@ -174,6 +174,8 @@ def art(args):
             "C      /     /  \ ",
             "\_         (   /  ",
             " mm --- mooo-     ",]
+   
+   
    ircmsg = args["raw"]
    user = ircmsg.split(":")[1].split('!')[0]
    channel = args["channel"]
