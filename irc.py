@@ -125,6 +125,6 @@ while True:
             try:
                 sendmsg(channel, cmd(args))
             except Exception as e:
-                sendmsg(channel, (str(e), "plz, fix me mother valka"))
+                sendmsg(channel, (str(e), "????????"))
         else:
             continue
