@@ -162,29 +162,6 @@ def shrug(args):
 def denko(args):
     return u"(´･ω･`)".encode('utf-8')
 
-@command("art")
-def art(args): 
-    import time
-    sendmsg = args["sendmsg"]
-    line = ('PIGGY STAMPEDE HEADING YOUR WAY ')
-    
-    pig = [ ",   ,            ",      
-            "\  |  \ / / / /   ",
-            "/ o   ,)       \  ",
-            "C      /     /  \ ",
-            "\_         (   /  ",
-            " mm --- mooo-     ",]
-   
-   
-   ircmsg = args["raw"]
-   user = ircmsg.split(":")[1].split('!')[0]
-   channel = args["channel"]
-   sendmsg(channel, line)
-   for lines in pig:
-       sendmsg(user, lines)
-       time.sleep(1)
-            
-
 @command("cute")
 def cute(args):
     user = getuser(args["raw"])
