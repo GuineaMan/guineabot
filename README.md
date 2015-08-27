@@ -1,7 +1,8 @@
-guineabot
+piggybot
 =====
 
-*an IRC bot written in something that may resemble python*
+Needs python to work
+But not irl, pythons are bad for guinea pigs D: 
 
 
 __Features include:__
