@@ -137,6 +137,13 @@ def guinea(args):
     return random.choice(list(open(guinea)))
 
 
+@command("spikehog")
+def spikehog(args):
+    directory = os.path.dirname(__file__)	
+    guinea = directory + os.path.join("/texts/other/spikehog.txt")
+    return random.choice(list(open(spikehog)))
+
+
 @command("facts")
 def facts(args):
     directory = os.path.dirname(__file__)	
