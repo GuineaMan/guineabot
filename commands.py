@@ -140,7 +140,7 @@ def guinea(args):
 @command("spikehog")
 def spikehog(args):
     directory = os.path.dirname(__file__)	
-    guinea = directory + os.path.join("/texts/other/spikehog.txt")
+    spikehog = directory + os.path.join("/texts/other/spikehog.txt")
     return random.choice(list(open(spikehog)))
 
 
